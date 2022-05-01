@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+        color: rgb(46, 199, 148);
+
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+.container {
+    background-color: aqua;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    gap: 1rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container, input {
+        color: violet !important;
+
+}
+
+button {
+    width: 5%;
+    color: whitesmoke !important;
+    border: 0;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: rgb(46, 199, 148);
+}
+
+
+input {
+    width: 200px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: 5rem;
+
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.educational {
+    background-color: aqua;
+}
